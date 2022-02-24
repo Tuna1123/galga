@@ -54,7 +54,7 @@ spacePlane = sprites.create(img`
     `, SpriteKind.Player)
 controller.moveSprite(spacePlane, 100, 100)
 spacePlane.setStayInScreen(true)
-info.setLife(5)
+info.setLife(4)
 game.onUpdateInterval(500, function () {
     bogey = sprites.create(img`
         . . . . . . . . . . . . . . . . 
